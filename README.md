@@ -1,4 +1,4 @@
-# Final Report
+﻿# Final Report
 ---
 ## Summary of Findings
 
@@ -6,9 +6,9 @@
 
 ### Part 1: Results and Observations
 **Top-3 Predictions:**
-1. **Tiger Cat:** 35% Confidence
-2. **Tabby:** 34% Confidence
-3. **Egyptian Cat:** 7% Confidence
+1. **Tiger Cat:**  &nbsp; &nbsp; &nbsp; &nbsp; ██████████████████ 35% Confidence
+2. **Tabby:**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;█████████████████ 34% Confidence
+3. **Egyptian Cat:**  &nbsp;&nbsp;████ 7% Confidence
 
 #### Grad-CAM Visualization
 The Grad-CAM heatmap highlights the regions of the image the model focused on to make its predictions.
@@ -20,19 +20,19 @@ The Grad-CAM heatmap highlights the regions of the image the model focused on to
 ### Part 2: Occlusion Techniques
 **Top-3 Predictions for Occlusion Techniques:**
 #### 1. Black Box Region Technique
-- **Tabby:** 40% Confidence
-- **Tiger Cat:** 28% Confidence
-- **Egyptian Cat:** 13% Confidence
+- **Tabby:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;████████████████████ 40% Confidence
+- **Tiger Cat:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██████████████ 28% Confidence
+- **Egyptian Cat:** ███████ 13% Confidence
 
 #### 2. Blurred Region Technique
-- **Tiger Cat:** 34% Confidence
-- **Tabby:** 31% Confidence
-- **Egyptian Cat:** 18% Confidence
+- **Tiger Cat:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;█████████████████ 34% Confidence
+- **Tabby:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;████████████████ 31% Confidence
+- **Egyptian Cat:** █████████ 18% Confidence
 
 #### 3. Noisy Region Technique
-- **Tiger Cat:** 51% Confidence
-- **Tabby:** 34% Confidence
-- **Egyptian Cat:** 2% Confidence
+- **Tiger Cat:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;██████████████████████████ 51% Confidence
+- **Tabby:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;█████████████████ 34% Confidence
+- **Egyptian Cat:** █ 2% Confidence
 
 **Observations:**
  - The black box, blurred region, and noisy region occlusions shifted the model's focus toward the face, particularly the eyes and lower ear area.
